@@ -1,6 +1,10 @@
 my_dict = {'Anton' : 1995 , 'Evgeniy' : 1997 , 'Bogdan' : 1996 , 'Geor' : 1995}
 print(my_dict)
-print(my_dict['Anton'])
+value_ = my_dict.get("Alkex")
+value2_ = my_dict.get('Anton')
+print(value_ ,value2_)
+second_element = my_dict.pop('Evgeniy')
+print(second_element)
 my_dict.update({'Denis' : 2001 ,
                 'Mihail' : 1008})
 print(my_dict)
